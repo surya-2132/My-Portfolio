@@ -1,0 +1,154 @@
+.hero{
+    background-color: #2278f8;
+    color: white;
+}
+
+.workImages{
+    width: 45%;
+    height: 50%;
+    border-radius: 50%;
+}
+
+.work{
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.containerWork{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 150px;
+   
+}
+
+.card{
+    background-color: white;
+    width: 320px;
+    height: 500px;
+    margin: 10px;
+    border-radius: 20%;
+    border: 20px solid black;
+    box-shadow: 3px 3px 4px rgb(94, 168, 246);
+}
+
+.card-image > h2,p{
+    margin: 5%;
+}
+
+.company-name{
+    text-align: center;
+    margin-top: 5px;
+}
+.card:hover{
+    background-color: #0e6cfd;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.04);
+    transition: all 0.5s ease;
+}
+
+.role{
+    text-align: center;
+}
+
+.logo{
+    margin-bottom: 5px;
+}
+
+footer{
+    background-color: #0c6dfd;
+    border-radius: 10px;
+}
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+    margin-top: 50px;
+    
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+
+}
+
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;    
+}
+
+.socialIcons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+
+}
+
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+
+.footernav{
+    margin: 30px 0;
+}
+
+.footernav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footernav ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.8;
+    transition: 0.5s;
+
+}
+
+.footernav ul li a:hover{
+    opacity: 1;
+}
+
+.footerBottom{
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.designer{
+    opacity: 0.8;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin: 0px 5px;
+}
+
+
+@media(max-width: 700px){
+    .footernav ul{
+        flex-direction: column;
+        
+    }
+
+    .footernav ul li{
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+}
+
+.containerproject{
+    margin-bottom: 80px;
+}
